@@ -10,6 +10,6 @@ public class TombstoneSO : ScriptableObject {
     public string quotes;
     public string hereLies;
     public string notebook;
-    public List<ItemSO> itemList;
+    public List<ItemSO> neededItemsList = new List<ItemSO>();
 
 }

@@ -7,6 +7,8 @@ public class Tombstone : MonoBehaviour {
     public TombstoneSO tombstoneSO;
     public UnityEngine.UI.Text txtTombstone;
     public UnityEngine.UI.Text txtNotebook;
+    public List<Item> items = new List<Item>();
+    public List<ItemSO> itemSoList = new List<ItemSO>();
 
     // Start is called before the first frame update
     void Start() {
