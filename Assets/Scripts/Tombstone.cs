@@ -8,12 +8,22 @@ public class Tombstone : MonoBehaviour {
     public UnityEngine.UI.Text txtTombstone;
     public UnityEngine.UI.Text txtNotebook;
     public List<Item> items = new List<Item>();
-    public List<ItemSO> itemSoList = new List<ItemSO>();
 
     // Start is called before the first frame update
     void Start() {
         txtTombstone.text = tombstoneSO.personName + "\n" + tombstoneSO.dates + "\n\n" + tombstoneSO.quotes + "\n\n" + tombstoneSO.hereLies;
         txtNotebook.text = tombstoneSO.notebook;
+    }
+
+
+    public bool HasEveryItem() {
+        foreach (var item in items) { 
+            if (!tombstoneSO.neededItemsList.Contains(item.itemSO)) {
+                return false;
+            }
+        }
+        
+        return true;
     }
 
 }
