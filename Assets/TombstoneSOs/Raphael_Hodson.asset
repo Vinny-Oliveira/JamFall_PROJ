@@ -21,5 +21,6 @@ MonoBehaviour:
     back to his truck. While distracted making a joke to a coworker he fell down
     a several story deep hole. It seems things were not very safe that day for the
     safety inspector.
-  itemList:
-  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}
+  neededItemsList:
+  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
+  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}

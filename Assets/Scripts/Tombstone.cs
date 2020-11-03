@@ -15,7 +15,10 @@ public class Tombstone : MonoBehaviour {
         txtNotebook.text = tombstoneSO.notebook;
     }
 
-
+    /// <summary>
+    /// Checks if the tombstone has all the required items
+    /// </summary>
+    /// <returns></returns>
     public bool HasEveryItem() {
         foreach (var item in items) { 
             if (!tombstoneSO.neededItemsList.Contains(item.itemSO)) {

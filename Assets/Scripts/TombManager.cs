@@ -9,6 +9,8 @@ public class TombManager : MonoBehaviour {
     public List<Tombstone> listTombstones = new List<Tombstone>();
     public List<Item> inventoryItems = new List<Item>();
     public UnityEngine.UI.Button btnEndGame;
+    public GameObject endGamePanel;
+    public UnityEngine.UI.Text txtEndGame;
 
     /// <summary>
     /// Click on inventory items
@@ -48,7 +50,7 @@ public class TombManager : MonoBehaviour {
     public bool CanEnableEndGameButton() { 
         foreach (var tomb in listTombstones) { 
             foreach (var item in tomb.items) { 
-                if (!item) {
+                if (!item.itemSO) {
                     return false;
                 }
             }
@@ -57,7 +59,18 @@ public class TombManager : MonoBehaviour {
         return true;
     }
 
-    public void OnEndGameButtonPressed() { 
-        
+    /// <summary>
+    /// End the game and display the results
+    /// </summary>
+    public void OnEndGameButtonPressed() {
+        endGamePanel.SetActive(true);
+        txtEndGame.text = "";
+        foreach (var tombstone in listTombstones) { 
+            if (tombstone.HasEveryItem()) {
+                txtEndGame.text += tombstone.tombstoneSO.personName + " has been released to the afterlife.\n";
+            } else {
+                txtEndGame.text += tombstone.tombstoneSO.personName + " is still bound to the land of the living.\n";
+            }
+        }
     }
 }

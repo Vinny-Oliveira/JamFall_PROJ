@@ -21,5 +21,6 @@ MonoBehaviour:
     the arena built, his poor heart gave out, but not before he\u2019d started down
     the ramp. Rumour has it; his body nailed the landing, cementing it as \u201CThe
     stunt that transcended death.\u201D"
-  itemList:
+  neededItemsList:
   - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
+  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
