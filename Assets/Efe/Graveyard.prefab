@@ -469,153 +469,6 @@ Transform:
   m_Father: {fileID: 5945232446633321356}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4553027955733926309
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5622470733461686615}
-    m_Modifications:
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168144924347208}
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 989443706064477832, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168144977736952}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4568291079035460126, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8155542843265993583, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_Name
-      value: Tombstone_10 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12.191581
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.326743
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.9507828
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.8606544
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5091896
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -118.78001
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372, type: 3}
---- !u!4 &5626991025988246254 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8158424982685649739, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-    type: 3}
-  m_PrefabInstance: {fileID: 4553027955733926309}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7517168146459106292 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6304408721558735441, guid: d8bb5f3ab6a5c6e40b47df25dfd3b372,
-    type: 3}
-  m_PrefabInstance: {fileID: 4553027955733926309}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21a6789e8d187714b9974d08e5ee966a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5622470732191440052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1984,6 +1837,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b1559853add1b50439493757eb5f57cd,
     type: 3}
   m_PrefabInstance: {fileID: 5622470732916579843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5622470732923508552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5622470733461686615}
+    m_Modifications:
+    - target: {fileID: 1920415727832450, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_Name
+      value: Tombstone_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.191581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.326743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9507828
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.8606544
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5091896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -118.78001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
+--- !u!4 &5626991025988246254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4523192223305126, guid: 3e45a41584f57984b83abcb954d23533,
+    type: 3}
+  m_PrefabInstance: {fileID: 5622470732923508552}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5622470732942609398
 PrefabInstance:
@@ -4390,10 +4306,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5622470733461686615}
     m_Modifications:
-    - target: {fileID: 1373208376, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1920415727832450, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
       propertyPath: m_Name
       value: Tombstone_10 (3)
@@ -4442,112 +4354,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 35.82682
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -27.231804
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762219286263762108, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: tombstoneSO
-      value: 
-      objectReference: {fileID: 11400000, guid: 3ef354a0e08fe3446ba1f7208ff9288b,
-        type: 2}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168144924347208}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 117.48046
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -27.231804
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168146459106292}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
 --- !u!4 &5626991025051612642 stripped
@@ -4556,18 +4362,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5622470734119680068}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7517168144977736952 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2762219286263762108, guid: 3e45a41584f57984b83abcb954d23533,
-    type: 3}
-  m_PrefabInstance: {fileID: 5622470734119680068}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21a6789e8d187714b9974d08e5ee966a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5622470734172719092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4575,10 +4369,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5622470733461686615}
     m_Modifications:
-    - target: {fileID: 1373208376, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1920415727832450, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
       propertyPath: m_Name
       value: Tombstone_10 (2)
@@ -4627,112 +4417,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 35.82682
-      objectReference: {fileID: 0}
-    - target: {fileID: 2705654788146213936, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -27.231804
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762219286263762108, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: tombstoneSO
-      value: 
-      objectReference: {fileID: 11400000, guid: 7c8d1b85b73ef264d935b8a82697221b,
-        type: 2}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168146459106292}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 5642246251943599347, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 117.48046
-      objectReference: {fileID: 0}
-    - target: {fileID: 8428947326415161976, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -27.231804
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeTombstone
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 7517168144977736952}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: Tombstone, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8976703564686956645, guid: 3e45a41584f57984b83abcb954d23533,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e45a41584f57984b83abcb954d23533, type: 3}
 --- !u!4 &5626991025141418578 stripped
@@ -4741,18 +4425,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5622470734172719092}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7517168144924347208 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2762219286263762108, guid: 3e45a41584f57984b83abcb954d23533,
-    type: 3}
-  m_PrefabInstance: {fileID: 5622470734172719092}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21a6789e8d187714b9974d08e5ee966a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5622470734180675309
 PrefabInstance:
   m_ObjectHideFlags: 0

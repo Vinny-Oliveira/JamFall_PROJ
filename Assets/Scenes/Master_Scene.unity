@@ -287,68 +287,318 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1678333761}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208818367239, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 589722827}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915208907859127, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 360512278}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 20915210119220155, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 934135244}
+    - target: {fileID: 1427521830929841538, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 1427521830929841538, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427521830984254002, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 1427521830984254002, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427521831595938446, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 1427521831595938446, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347830184839078406, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 2347830184839078406, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347830184920178102, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 2347830184920178102, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347830186320448778, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 2347830186320448778, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnTombItemClicked
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426542366753, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 589722827}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1678333761}
     - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730426628710289, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 1678333761}
+      objectReference: {fileID: 934135244}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1678333761}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeTombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Tombstone, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644730427761594157, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 360512278}
     - target: {fileID: 3740965120198507107, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_Name
       value: Graveyard
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310712712588, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310712712588, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310712712588, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 117.48046
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310712712588, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.231804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310767149628, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310767149628, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310767149628, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 117.48046
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251017310767149628, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.231804
       objectReference: {fileID: 0}
     - target: {fileID: 4251017312248519984, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
@@ -368,6 +618,16 @@ PrefabInstance:
     - target: {fileID: 4251017312248519984, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622470732771673980, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622470732853049548, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5945232446633321356, guid: e5042992949e0dd4a8b441806e2deac9,
@@ -427,9 +687,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7517168144924347208, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
+      propertyPath: tombstoneSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7c8d1b85b73ef264d935b8a82697221b,
+        type: 2}
+    - target: {fileID: 7517168144924347208, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
       propertyPath: cameraHolder
       value: 
       objectReference: {fileID: 571717273}
+    - target: {fileID: 7517168144977736952, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: tombstoneSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ef354a0e08fe3446ba1f7208ff9288b,
+        type: 2}
     - target: {fileID: 7517168144977736952, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: cameraHolder
@@ -440,6 +712,46 @@ PrefabInstance:
       propertyPath: cameraHolder
       value: 
       objectReference: {fileID: 677702072}
+    - target: {fileID: 7749408419004494788, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419004494788, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419004494788, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.82682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419004494788, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.231804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419092728948, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419092728948, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419092728948, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.82682
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749408419092728948, guid: e5042992949e0dd4a8b441806e2deac9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.231804
+      objectReference: {fileID: 0}
     - target: {fileID: 7749408420572537720, guid: e5042992949e0dd4a8b441806e2deac9,
         type: 3}
       propertyPath: m_AnchorMin.y
