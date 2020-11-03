@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6993bd0a2edbbcb4cbbe424bfe8992bc, type: 3}
+  m_Name: Raphael_Hodson
+  m_EditorClassIdentifier: 
+  personName: Raphael Hodson
+  dates: 1990-2020
+  quotes: '"A loving husband, a caring father, and an adventurous soul"'
+  hereLies: -Here lies an atheist. All dressed up with no place to go-
+  notebook: A safety inspector was doing his final rounds of a new construction site,
+    after marking down a few minor safety concerns he clocked out and began the walk
+    back to his truck. While distracted making a joke to a coworker he fell down
+    a several story deep hole. It seems things were not very safe that day for the
+    safety inspector.
+  neededItemsList:
+  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
+  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6993bd0a2edbbcb4cbbe424bfe8992bc, type: 3}
+  m_Name: Donovan_Chesnut
+  m_EditorClassIdentifier: 
+  personName: Donovan Chesnut
+  dates: 1983 - 2020
+  quotes: -Courageous Actor and Stuntman-
+  hereLies: '"If you have to cope with many problems, its either you end up sinking
+    or you end up swimming"'
+  notebook: Despite his bizarre name, Chesnut was a prolific actor in Hollywood,
+    despite his young age, his debut film from 1999, "The Body Snatchers From Outer
+    Space," made millions and more at the box office and was his breakout film for
+    his career. Chesnut had a unique acting method, where he chose to do many of
+    the stunts himself rather than hiring a stuntman. However, with his most recent
+    film, a set of defibrillators weren't checked to be off before shooting, causing
+    him to have a heart attack. Unfortunately, they couldn't hook up the defibrillators
+    in time to revive him, leaving him dead on set with the only means of saving
+    him out of energy.
+  neededItemsList:
+  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
+  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}

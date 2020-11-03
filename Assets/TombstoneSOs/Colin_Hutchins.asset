@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6993bd0a2edbbcb4cbbe424bfe8992bc, type: 3}
+  m_Name: Colin_Hutchins
+  m_EditorClassIdentifier: 
+  personName: "Colin \u201CDevil\u201D Hutchins"
+  dates: 1954-2020
+  quotes: "\u201CA daring man who inspired courage in others.\u201D"
+  hereLies: "-gone stuntin\u2019-"
+  notebook: "An old \u201CEvil Kenevil\u201D style stuntman decided to do a final
+    sendoff stunt to end their career with a bang. As the excitement and music in
+    the arena built, his poor heart gave out, but not before he\u2019d started down
+    the ramp. Rumour has it; his body nailed the landing, cementing it as \u201CThe
+    stunt that transcended death.\u201D"
+  neededItemsList:
+  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
+  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
