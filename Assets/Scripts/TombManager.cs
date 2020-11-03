@@ -5,7 +5,7 @@ using UnityEngine;
 public class TombManager : MonoBehaviour {
 
     public Tombstone activeTomb;
-    public Tombstone ActiveTomb { set { activeTomb = value; } }
+    public Camera mainCam;
     public List<Tombstone> listTombstones = new List<Tombstone>();
     public List<Item> inventoryItems = new List<Item>();
     public UnityEngine.UI.Button btnEndGame;
@@ -72,5 +72,17 @@ public class TombManager : MonoBehaviour {
                 txtEndGame.text += tombstone.tombstoneSO.personName + " is still bound to the land of the living.\n";
             }
         }
+    }
+
+    /// <summary>
+    /// Switch to a nw active tombstone
+    /// </summary>
+    /// <param name="newTombstone"></param>
+    public void ChangeTombstone(Tombstone newTombstone) {
+        activeTomb.tombCanvas.SetActive(false);
+        activeTomb = newTombstone;
+        activeTomb.tombCanvas.SetActive(true);
+        mainCam.transform.position = activeTomb.cameraHolder.position;
+        mainCam.transform.rotation = activeTomb.cameraHolder.rotation;
     }
 }
