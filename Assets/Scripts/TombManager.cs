@@ -4,13 +4,37 @@ using UnityEngine;
 
 public class TombManager : MonoBehaviour {
 
+    [Header("Game Objects")]
     public Tombstone activeTomb;
     public Camera mainCam;
+    
+    [Header("Tombstones and Player Items")]
     public List<Tombstone> listTombstones = new List<Tombstone>();
     public List<Item> inventoryItems = new List<Item>();
+    public List<TombstoneSO> tombstonePool = new List<TombstoneSO>();
+    
+    [Header("UI")]
     public UnityEngine.UI.Button btnEndGame;
     public GameObject endGamePanel;
     public UnityEngine.UI.Text txtEndGame;
+
+    private void Start() {
+        AssignRandomTombs();
+    }
+
+    /// <summary>
+    /// Assign TombstoneSOs to the list of tombstones
+    /// </summary>
+    void AssignRandomTombs() { 
+        if (listTombstones.Count > tombstonePool.Count) {
+            return;
+        }
+
+        GameUtilities.RandomizeList(ref tombstonePool);
+        for (int i = 0; i < listTombstones.Count; i++) {
+            listTombstones[i].tombstoneSO = tombstonePool[i];
+        }
+    }
 
     /// <summary>
     /// Click on inventory items
