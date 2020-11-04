@@ -9,13 +9,6 @@ public class Item : MonoBehaviour {
     public UnityEngine.UI.Button button;
     string itemName;
 
-    private void Start() {
-        if (itemSO) { 
-            itemName = itemSO.itemName;
-            image.sprite = itemSO.sprite;
-        }
-    }
-
     public void SetItem() {
         itemName = itemSO.itemName;
         image.sprite = itemSO.sprite;

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal.VersionControl;
 using UnityEngine;
 
 public class TombManager : MonoBehaviour {
@@ -12,6 +13,7 @@ public class TombManager : MonoBehaviour {
     public List<Tombstone> listTombstones = new List<Tombstone>();
     public List<Item> inventoryItems = new List<Item>();
     public List<TombstoneSO> tombstonePool = new List<TombstoneSO>();
+    public List<ItemSO> itemPool = new List<ItemSO>();
     
     [Header("UI")]
     public UnityEngine.UI.Button btnEndGame;
@@ -20,6 +22,7 @@ public class TombManager : MonoBehaviour {
 
     private void Start() {
         AssignRandomTombs();
+        AssignItems();
     }
 
     /// <summary>
@@ -33,6 +36,22 @@ public class TombManager : MonoBehaviour {
         GameUtilities.RandomizeList(ref tombstonePool);
         for (int i = 0; i < listTombstones.Count; i++) {
             listTombstones[i].tombstoneSO = tombstonePool[i];
+            listTombstones[i].WriteOnTombstone();
+        }
+    }
+
+    /// <summary>
+    /// Randomize list of items
+    /// </summary>
+    void AssignItems() { 
+        if (inventoryItems.Count > itemPool.Count) {
+            return;
+        }
+
+        GameUtilities.RandomizeList(ref itemPool);
+        for (int i = 0; i < inventoryItems.Count; i++) {
+            inventoryItems[i].itemSO = itemPool[i];
+            inventoryItems[i].SetItem();
         }
     }
 

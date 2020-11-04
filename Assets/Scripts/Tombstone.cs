@@ -11,8 +11,10 @@ public class Tombstone : MonoBehaviour {
     public Transform cameraHolder;
     public GameObject tombCanvas;
 
-    // Start is called before the first frame update
-    void Start() {
+    /// <summary>
+    /// Write information from ItemSO on the tombstones
+    /// </summary>
+    public void WriteOnTombstone() { 
         txtTombstone.text = tombstoneSO.personName + "\n" + tombstoneSO.dates + "\n\n" + tombstoneSO.quotes + "\n\n" + tombstoneSO.hereLies;
         txtNotebook.text = tombstoneSO.notebook;
     }
