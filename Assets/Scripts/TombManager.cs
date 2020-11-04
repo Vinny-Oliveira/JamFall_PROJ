@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditorInternal.VersionControl;
 using UnityEngine;
 
@@ -18,7 +19,8 @@ public class TombManager : MonoBehaviour {
     [Header("UI")]
     public UnityEngine.UI.Button btnEndGame;
     public GameObject endGamePanel;
-    public UnityEngine.UI.Text txtEndGame;
+    public UnityEngine.UI.Text txtSavedSouls;
+    public UnityEngine.UI.Text txtEmprisionedSouls;
 
     private void Start() {
         AssignRandomTombs();
@@ -107,12 +109,24 @@ public class TombManager : MonoBehaviour {
     /// </summary>
     public void OnEndGameButtonPressed() {
         endGamePanel.SetActive(true);
-        txtEndGame.text = "";
-        foreach (var tombstone in listTombstones) { 
-            if (tombstone.HasEveryItem()) {
-                txtEndGame.text += tombstone.tombstoneSO.personName + " has been released to the afterlife.\n";
-            } else {
-                txtEndGame.text += tombstone.tombstoneSO.personName + " is still bound to the land of the living.\n";
+        List<Tombstone> savedSouls = listTombstones.Where(x => x.HasEveryItem()).ToList();
+        List<Tombstone> emprisionedSouls = listTombstones.Where(x => !x.HasEveryItem()).ToList();
+
+        // Text for saved souls
+        txtSavedSouls.text = "";
+        if (savedSouls.Count > 0) {
+            txtSavedSouls.text = "These souls received the items they needed to fulfilled their destinies and were sent to the afterlife:\n";
+            foreach (var saved in savedSouls) {
+                txtSavedSouls.text += saved.tombstoneSO.personName + "\n";
+            }
+        }
+        
+        // Text for emprisioned souls
+        txtEmprisionedSouls.text = "";
+        if (emprisionedSouls.Count > 0) {
+            txtEmprisionedSouls.text = "Unfortunately, these souls are still missing the items that would release them and are still bound to the land of the living:\n";
+            foreach (var emprisioned in emprisionedSouls) {
+                txtEmprisionedSouls.text += emprisioned.tombstoneSO.personName + "\n";
             }
         }
     }
