@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6993bd0a2edbbcb4cbbe424bfe8992bc, type: 3}
+  m_Name: Mikhail_Ahsas
+  m_EditorClassIdentifier: 
+  personName: Mikhail Ahsas
+  dates: 1911 - 1968
+  quotes: "\u201CMay he find sandwich again in heaven\u201D"
+  hereLies: 
+  notebook: "Mikhail was a veteran mercenary working for a demolition company. The
+    cold and howling wind of Russia forged his iron will and the almost morbid love
+    of sandwich. Even when on the battlefield, he would bring his sandwich lunchbox
+    ready to eat. It was a sunny day when the man was stabbed from the back by one
+    of his \u201Ccolleagues\u201D who turned out to be a disguise of an enemy spy.
+    He could not finish the last bite of his sandwich."
+  neededItemsList: []

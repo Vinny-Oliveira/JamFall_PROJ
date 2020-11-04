@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6993bd0a2edbbcb4cbbe424bfe8992bc, type: 3}
+  m_Name: William_Nazar
+  m_EditorClassIdentifier: 
+  personName: William Nazar
+  dates: 1943 - 2020
+  quotes: 
+  hereLies: -Giver Of Joy and Happiness-
+  notebook: Nazar was a prolific CEO and head of a massive toy conglomerate, one
+    day, he visited one of his factories in order to oversee special toy construction,
+    the toy was designed to be "The happiest toy ever," and designed by Nazar. However,
+    the design of the toy used an incredibly toxic chemical, Nazar unfortunately
+    inhaled a lot of the chemical, dropping dead almost instantly on the factory
+    floor. At least he died with the knowledge that his toy finished production.
+  neededItemsList:
+  - {fileID: 11400000, guid: 1775fd89aef0bac41b19cdecc36e7b6a, type: 2}
+  - {fileID: 11400000, guid: ccb786a82f1eaa747b0c2ca110e85b3e, type: 2}
+  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}

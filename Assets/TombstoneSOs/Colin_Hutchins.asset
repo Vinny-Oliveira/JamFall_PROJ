@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Colin_Hutchins
   m_EditorClassIdentifier: 
   personName: "Colin \u201CDevil\u201D Hutchins"
-  dates: 1954-2020
+  dates: 1954 - 2020
   quotes: "\u201CA daring man who inspired courage in others.\u201D"
   hereLies: "-gone stuntin\u2019-"
   notebook: "An old \u201CEvil Kenevil\u201D style stuntman decided to do a final
@@ -23,4 +23,5 @@ MonoBehaviour:
     stunt that transcended death.\u201D"
   neededItemsList:
   - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
-  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
+  - {fileID: 11400000, guid: f32f2db6fa521ab4683d318f52293712, type: 2}
+  - {fileID: 11400000, guid: 2cf8e5420d523a741a3664d623a49288, type: 2}

@@ -27,5 +27,6 @@ MonoBehaviour:
     in time to revive him, leaving him dead on set with the only means of saving
     him out of energy.
   neededItemsList:
-  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
-  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}
+  - {fileID: 11400000, guid: 684bb777541f7924091a10104a0db726, type: 2}
+  - {fileID: 11400000, guid: 5aec49b4881d1694490df136ad6005c2, type: 2}
+  - {fileID: 11400000, guid: 0a7e7e690237a7e46998df8170c07db7, type: 2}

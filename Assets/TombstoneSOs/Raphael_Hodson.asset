@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Raphael_Hodson
   m_EditorClassIdentifier: 
   personName: Raphael Hodson
-  dates: 1990-2020
+  dates: 1990 - 2020
   quotes: '"A loving husband, a caring father, and an adventurous soul"'
   hereLies: -Here lies an atheist. All dressed up with no place to go-
   notebook: A safety inspector was doing his final rounds of a new construction site,
@@ -22,5 +22,6 @@ MonoBehaviour:
     a several story deep hole. It seems things were not very safe that day for the
     safety inspector.
   neededItemsList:
-  - {fileID: 11400000, guid: f9cd9b0558398294fb4cbbe9e495d9e6, type: 2}
-  - {fileID: 11400000, guid: 86d793ef415099b4597435b6de9ef0aa, type: 2}
+  - {fileID: 11400000, guid: 1775fd89aef0bac41b19cdecc36e7b6a, type: 2}
+  - {fileID: 11400000, guid: ccb786a82f1eaa747b0c2ca110e85b3e, type: 2}
+  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}
