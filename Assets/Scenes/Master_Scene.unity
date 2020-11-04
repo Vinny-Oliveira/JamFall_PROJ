@@ -5848,6 +5848,7 @@ MonoBehaviour:
   - {fileID: 398843949}
   - {fileID: 561793934}
   - {fileID: 1112648069}
+  tombstonePool: []
   btnEndGame: {fileID: 684254508}
   endGamePanel: {fileID: 897950080}
   txtEndGame: {fileID: 1080911305}
@@ -7354,6 +7355,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: lb_groundTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 696024328716290606, guid: 0b2f446fe4dfd914186b4e6480543f68,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1898196401226548915, guid: 0b2f446fe4dfd914186b4e6480543f68,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7692,6 +7698,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1678333761}
+    - target: {fileID: 7538850769572706492, guid: 0b2f446fe4dfd914186b4e6480543f68,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8226017409461909519, guid: 0b2f446fe4dfd914186b4e6480543f68,
         type: 3}
       propertyPath: m_AnchorMin.y
