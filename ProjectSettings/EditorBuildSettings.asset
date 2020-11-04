@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Efe/EfeScene.unity
+    path: Assets/Efe/EfeScene0.unity
     guid: c849b97423eeadd47af3029ba4e184cd
   - enabled: 1
     path: Assets/Efe/MainMenu.unity
