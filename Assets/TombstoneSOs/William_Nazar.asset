@@ -23,6 +23,6 @@ MonoBehaviour:
     inhaled a lot of the chemical, dropping dead almost instantly on the factory
     floor. At least he died with the knowledge that his toy finished production.
   neededItemsList:
-  - {fileID: 11400000, guid: 1775fd89aef0bac41b19cdecc36e7b6a, type: 2}
-  - {fileID: 11400000, guid: ccb786a82f1eaa747b0c2ca110e85b3e, type: 2}
-  - {fileID: 11400000, guid: c3367c4b00272874ba4191e0f6438802, type: 2}
+  - {fileID: 11400000, guid: 81129a4be88003048a50c89a0ace6ff0, type: 2}
+  - {fileID: 11400000, guid: fb20dad4aee622d4fb96ec7717836a59, type: 2}
+  - {fileID: 11400000, guid: 74d67078fe7bb3f4cb6dc10e8896d45b, type: 2}
