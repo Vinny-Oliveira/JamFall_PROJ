@@ -22,4 +22,7 @@ MonoBehaviour:
     ready to eat. It was a sunny day when the man was stabbed from the back by one
     of his \u201Ccolleagues\u201D who turned out to be a disguise of an enemy spy.
     He could not finish the last bite of his sandwich."
-  neededItemsList: []
+  neededItemsList:
+  - {fileID: 11400000, guid: 08605ba33786eab4eba07da26774bb31, type: 2}
+  - {fileID: 11400000, guid: 7d855bc37085ddb4fb4f9468142035c8, type: 2}
+  - {fileID: 11400000, guid: 93b952965e28a32439a9f5b293e7efba, type: 2}

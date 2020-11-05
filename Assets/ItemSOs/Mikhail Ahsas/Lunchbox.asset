@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7ed45b7b31ff31478144da9d0f370e2, type: 3}
-  m_Name: ToiletPaper
+  m_Name: Lunchbox
   m_EditorClassIdentifier: 
-  itemName: Toilet Paper
-  sprite: {fileID: 21300000, guid: 4599905c98d015549a79d4c5b2273b13, type: 3}
+  itemName: Lunchbox
+  sprite: {fileID: 21300000, guid: fb50a2b051bf0fe40952e881786becc3, type: 3}

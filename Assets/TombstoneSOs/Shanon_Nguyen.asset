@@ -23,4 +23,7 @@ MonoBehaviour:
     mop in the wrong direction, causing her to lose her balance and fall face first
     against the ground, her head hitting the ground forehead first, knocking her
     out, she drowned in the milk in her unconscious state before anyone found her.
-  neededItemsList: []
+  neededItemsList:
+  - {fileID: 11400000, guid: 680ca5cbfa385b0428971dd51c4b9063, type: 2}
+  - {fileID: 11400000, guid: ff875aaa36c10194b92f9e85cc3b3654, type: 2}
+  - {fileID: 11400000, guid: 077788ec8a614ce40bd952890280a4cf, type: 2}
