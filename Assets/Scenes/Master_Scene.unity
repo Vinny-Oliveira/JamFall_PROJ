@@ -7723,23 +7723,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Death is not the end is a casual matching game.
+  m_text: 'Memento Mori is a casual matching game.
 
 
-    Your objective is
-    to match all the items in the bottom with the 3 gravestones.
+    Your objective is to match
+    all the items in the bottom with the 3 gravestones.
 
 
-    TO do that,
-    you must figure out their lives by reading about them.
+    TO do that, you must
+    figure out their lives by reading about them.
 
 
-    There is no player
-    feedback. You will not be told of your achievements until the very end.
+    There is no player feedback.
+    You will not be told of your achievements until the very end.
 
 
-    Good
-    luck!'
+    Good luck!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 41311fb03723ada4da6b137abe8f02b9, type: 2}
   m_sharedMaterial: {fileID: 5518196170992693615, guid: 41311fb03723ada4da6b137abe8f02b9,
